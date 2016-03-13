@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252CFE2F1952167B00B8B80B /* PWWelcomeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 252CFE2D1952167B00B8B80B /* PWWelcomeWindowController.m */; };
+		252CFE301952167B00B8B80B /* PWWelcomeWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 252CFE2E1952167B00B8B80B /* PWWelcomeWindowController.xib */; };
+		25C0514B19EF06E00082A0DE /* status-icon.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 25C0514A19EF06E00082A0DE /* status-icon.tiff */; };
+		25C4972D194BEE320067AC82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4972C194BEE320067AC82 /* Cocoa.framework */; };
+		25C49737194BEE320067AC82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C49735194BEE320067AC82 /* InfoPlist.strings */; };
+		25C49739194BEE320067AC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C49738194BEE320067AC82 /* main.m */; };
+		25C49740194BEE320067AC82 /* PWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C4973F194BEE320067AC82 /* PWAppDelegate.m */; };
+		25C49743194BEE320067AC82 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C49741194BEE320067AC82 /* MainMenu.xib */; };
+		25C49745194BEE320067AC82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C49744194BEE320067AC82 /* Images.xcassets */; };
+		25C4974C194BEE320067AC82 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4974B194BEE320067AC82 /* XCTest.framework */; };
+		25C4974D194BEE320067AC82 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C4972C194BEE320067AC82 /* Cocoa.framework */; };
+		25C49755194BEE320067AC82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25C49753194BEE320067AC82 /* InfoPlist.strings */; };
+		25C49757194BEE320067AC82 /* GoToDesktopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C49756194BEE320067AC82 /* GoToDesktopTests.m */; };
+		25C49772194CE84F0067AC82 /* PWStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C49771194CE84F0067AC82 /* PWStatusView.m */; };
+		25C4977C194D18300067AC82 /* PWPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C4977A194D18300067AC82 /* PWPreferencesWindowController.m */; };
+		25C4977D194D18300067AC82 /* PWPreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C4977B194D18300067AC82 /* PWPreferencesWindowController.xib */; };
+		25E8C1D61955148D0005AA9C /* DockMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E8C1D51955148D0005AA9C /* DockMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25C4974E194BEE320067AC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25C49721194BEE320067AC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25C49728194BEE320067AC82;
+			remoteInfo = GoToDesktop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252CFE2C1952167B00B8B80B /* PWWelcomeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWWelcomeWindowController.h; sourceTree = "<group>"; };
+		252CFE2D1952167B00B8B80B /* PWWelcomeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWWelcomeWindowController.m; sourceTree = "<group>"; };
+		252CFE2E1952167B00B8B80B /* PWWelcomeWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWWelcomeWindowController.xib; sourceTree = "<group>"; };
+		2581B3CC1955262B0008DD1A /* GoToDesktop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GoToDesktop.entitlements; sourceTree = "<group>"; };
+		25C0514A19EF06E00082A0DE /* status-icon.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status-icon.tiff"; sourceTree = "<group>"; };
+		25C49729194BEE320067AC82 /* GoToDesktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoToDesktop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C4972C194BEE320067AC82 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25C4972F194BEE320067AC82 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25C49730194BEE320067AC82 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25C49731194BEE320067AC82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25C49734194BEE320067AC82 /* GoToDesktop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoToDesktop-Info.plist"; sourceTree = "<group>"; };
+		25C49736194BEE320067AC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25C49738194BEE320067AC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25C4973A194BEE320067AC82 /* GoToDesktop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoToDesktop-Prefix.pch"; sourceTree = "<group>"; };
+		25C4973E194BEE320067AC82 /* PWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWAppDelegate.h; sourceTree = "<group>"; };
+		25C4973F194BEE320067AC82 /* PWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWAppDelegate.m; sourceTree = "<group>"; };
+		25C49742194BEE320067AC82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25C49744194BEE320067AC82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25C4974A194BEE320067AC82 /* GoToDesktopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoToDesktopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C4974B194BEE320067AC82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25C49752194BEE320067AC82 /* GoToDesktopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoToDesktopTests-Info.plist"; sourceTree = "<group>"; };
+		25C49754194BEE320067AC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25C49756194BEE320067AC82 /* GoToDesktopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoToDesktopTests.m; sourceTree = "<group>"; };
+		25C49770194CE84F0067AC82 /* PWStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWStatusView.h; sourceTree = "<group>"; };
+		25C49771194CE84F0067AC82 /* PWStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWStatusView.m; sourceTree = "<group>"; };
+		25C49779194D18300067AC82 /* PWPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWPreferencesWindowController.h; sourceTree = "<group>"; };
+		25C4977A194D18300067AC82 /* PWPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWPreferencesWindowController.m; sourceTree = "<group>"; };
+		25C4977B194D18300067AC82 /* PWPreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PWPreferencesWindowController.xib; sourceTree = "<group>"; };
+		25E8C1D51955148D0005AA9C /* DockMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DockMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25C49726194BEE320067AC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C4972D194BEE320067AC82 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C49747194BEE320067AC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C4974D194BEE320067AC82 /* Cocoa.framework in Frameworks */,
+				25C4974C194BEE320067AC82 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25C49720194BEE320067AC82 = {
+			isa = PBXGroup;
+			children = (
+				25C49732194BEE320067AC82 /* GoToDesktop */,
+				25C49750194BEE320067AC82 /* GoToDesktopTests */,
+				25C4972B194BEE320067AC82 /* Frameworks */,
+				25C4972A194BEE320067AC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25C4972A194BEE320067AC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25C49729194BEE320067AC82 /* GoToDesktop.app */,
+				25C4974A194BEE320067AC82 /* GoToDesktopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25C4972B194BEE320067AC82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C4972C194BEE320067AC82 /* Cocoa.framework */,
+				25C4974B194BEE320067AC82 /* XCTest.framework */,
+				25C4972E194BEE320067AC82 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25C4972E194BEE320067AC82 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C4972F194BEE320067AC82 /* AppKit.framework */,
+				25C49730194BEE320067AC82 /* CoreData.framework */,
+				25C49731194BEE320067AC82 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25C49732194BEE320067AC82 /* GoToDesktop */ = {
+			isa = PBXGroup;
+			children = (
+				2581B3CC1955262B0008DD1A /* GoToDesktop.entitlements */,
+				25C0514A19EF06E00082A0DE /* status-icon.tiff */,
+				25C4973E194BEE320067AC82 /* PWAppDelegate.h */,
+				25C4973F194BEE320067AC82 /* PWAppDelegate.m */,
+				25C49741194BEE320067AC82 /* MainMenu.xib */,
+				25C49744194BEE320067AC82 /* Images.xcassets */,
+				25C49733194BEE320067AC82 /* Supporting Files */,
+				25C49770194CE84F0067AC82 /* PWStatusView.h */,
+				25C49771194CE84F0067AC82 /* PWStatusView.m */,
+				25C49779194D18300067AC82 /* PWPreferencesWindowController.h */,
+				25C4977A194D18300067AC82 /* PWPreferencesWindowController.m */,
+				25C4977B194D18300067AC82 /* PWPreferencesWindowController.xib */,
+			);
+			path = GoToDesktop;
+			sourceTree = "<group>";
+		};
+		25C49733194BEE320067AC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C49734194BEE320067AC82 /* GoToDesktop-Info.plist */,
+				25C49735194BEE320067AC82 /* InfoPlist.strings */,
+				25C49738194BEE320067AC82 /* main.m */,
+				25C4973A194BEE320067AC82 /* GoToDesktop-Prefix.pch */,
+				252CFE2C1952167B00B8B80B /* PWWelcomeWindowController.h */,
+				252CFE2D1952167B00B8B80B /* PWWelcomeWindowController.m */,
+				252CFE2E1952167B00B8B80B /* PWWelcomeWindowController.xib */,
+				25E8C1D51955148D0005AA9C /* DockMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C49750194BEE320067AC82 /* GoToDesktopTests */ = {
+			isa = PBXGroup;
+			children = (
+				25C49756194BEE320067AC82 /* GoToDesktopTests.m */,
+				25C49751194BEE320067AC82 /* Supporting Files */,
+			);
+			path = GoToDesktopTests;
+			sourceTree = "<group>";
+		};
+		25C49751194BEE320067AC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C49752194BEE320067AC82 /* GoToDesktopTests-Info.plist */,
+				25C49753194BEE320067AC82 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25C49728194BEE320067AC82 /* GoToDesktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C4975A194BEE320067AC82 /* Build configuration list for PBXNativeTarget "GoToDesktop" */;
+			buildPhases = (
+				25C49725194BEE320067AC82 /* Sources */,
+				25C49726194BEE320067AC82 /* Frameworks */,
+				25C49727194BEE320067AC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoToDesktop;
+			productName = GoToDesktop;
+			productReference = 25C49729194BEE320067AC82 /* GoToDesktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25C49749194BEE320067AC82 /* GoToDesktopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25C4975D194BEE320067AC82 /* Build configuration list for PBXNativeTarget "GoToDesktopTests" */;
+			buildPhases = (
+				25C49746194BEE320067AC82 /* Sources */,
+				25C49747194BEE320067AC82 /* Frameworks */,
+				25C49748194BEE320067AC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25C4974F194BEE320067AC82 /* PBXTargetDependency */,
+			);
+			name = GoToDesktopTests;
+			productName = GoToDesktopTests;
+			productReference = 25C4974A194BEE320067AC82 /* GoToDesktopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25C49721194BEE320067AC82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Blake Ehrenbeck";
+				TargetAttributes = {
+					25C49728194BEE320067AC82 = {
+						DevelopmentTeam = 3YFBHC2NJ5;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					25C49749194BEE320067AC82 = {
+						TestTargetID = 25C49728194BEE320067AC82;
+					};
+				};
+			};
+			buildConfigurationList = 25C49724194BEE320067AC82 /* Build configuration list for PBXProject "GoToDesktop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25C49720194BEE320067AC82;
+			productRefGroup = 25C4972A194BEE320067AC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25C49728194BEE320067AC82 /* GoToDesktop */,
+				25C49749194BEE320067AC82 /* GoToDesktopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25C49727194BEE320067AC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C49737194BEE320067AC82 /* InfoPlist.strings in Resources */,
+				25E8C1D61955148D0005AA9C /* DockMenu.xib in Resources */,
+				25C0514B19EF06E00082A0DE /* status-icon.tiff in Resources */,
+				25C4977D194D18300067AC82 /* PWPreferencesWindowController.xib in Resources */,
+				25C49745194BEE320067AC82 /* Images.xcassets in Resources */,
+				252CFE301952167B00B8B80B /* PWWelcomeWindowController.xib in Resources */,
+				25C49743194BEE320067AC82 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C49748194BEE320067AC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C49755194BEE320067AC82 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C49725194BEE320067AC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252CFE2F1952167B00B8B80B /* PWWelcomeWindowController.m in Sources */,
+				25C49772194CE84F0067AC82 /* PWStatusView.m in Sources */,
+				25C49739194BEE320067AC82 /* main.m in Sources */,
+				25C49740194BEE320067AC82 /* PWAppDelegate.m in Sources */,
+				25C4977C194D18300067AC82 /* PWPreferencesWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25C49746194BEE320067AC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C49757194BEE320067AC82 /* GoToDesktopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25C4974F194BEE320067AC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25C49728194BEE320067AC82 /* GoToDesktop */;
+			targetProxy = 25C4974E194BEE320067AC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25C49735194BEE320067AC82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C49736194BEE320067AC82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25C49741194BEE320067AC82 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C49742194BEE320067AC82 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		25C49753194BEE320067AC82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25C49754194BEE320067AC82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25C49758194BEE320067AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25C49759194BEE320067AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25C4975B194BEE320067AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoToDesktop/GoToDesktop.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoToDesktop/GoToDesktop-Prefix.pch";
+				INFOPLIST_FILE = "GoToDesktop/GoToDesktop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25C4975C194BEE320067AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoToDesktop/GoToDesktop.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoToDesktop/GoToDesktop-Prefix.pch";
+				INFOPLIST_FILE = "GoToDesktop/GoToDesktop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25C4975E194BEE320067AC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoToDesktop.app/Contents/MacOS/GoToDesktop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoToDesktop/GoToDesktop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoToDesktopTests/GoToDesktopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25C4975F194BEE320067AC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoToDesktop.app/Contents/MacOS/GoToDesktop";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoToDesktop/GoToDesktop-Prefix.pch";
+				INFOPLIST_FILE = "GoToDesktopTests/GoToDesktopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25C49724194BEE320067AC82 /* Build configuration list for PBXProject "GoToDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C49758194BEE320067AC82 /* Debug */,
+				25C49759194BEE320067AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C4975A194BEE320067AC82 /* Build configuration list for PBXNativeTarget "GoToDesktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C4975B194BEE320067AC82 /* Debug */,
+				25C4975C194BEE320067AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25C4975D194BEE320067AC82 /* Build configuration list for PBXNativeTarget "GoToDesktopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C4975E194BEE320067AC82 /* Debug */,
+				25C4975F194BEE320067AC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25C49721194BEE320067AC82 /* Project object */;
+}
